@@ -14,6 +14,7 @@
 		6115CE122B1782B1004E0235 /* ConcurrencyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6115CE112B1782B1004E0235 /* ConcurrencyAppTests.swift */; };
 		6115CE1C2B1782B1004E0235 /* ConcurrencyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6115CE1B2B1782B1004E0235 /* ConcurrencyAppUITests.swift */; };
 		6115CE1E2B1782B1004E0235 /* ConcurrencyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6115CE1D2B1782B1004E0235 /* ConcurrencyAppUITestsLaunchTests.swift */; };
+		6115CE2B2B178321004E0235 /* ConcurrencyRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6115CE2A2B178321004E0235 /* ConcurrencyRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		6115CE172B1782B1004E0235 /* ConcurrencyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcurrencyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6115CE1B2B1782B1004E0235 /* ConcurrencyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyAppUITests.swift; sourceTree = "<group>"; };
 		6115CE1D2B1782B1004E0235 /* ConcurrencyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6115CE2A2B178321004E0235 /* ConcurrencyRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				6115CE022B1782AF004E0235 /* ContentView.swift */,
 				6115CE042B1782B1004E0235 /* Assets.xcassets */,
 				6115CE062B1782B1004E0235 /* Preview Content */,
+				6115CE2A2B178321004E0235 /* ConcurrencyRepository.swift */,
 			);
 			path = ConcurrencyApp;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				6115CE032B1782AF004E0235 /* ContentView.swift in Sources */,
 				6115CE012B1782AF004E0235 /* ConcurrencyAppApp.swift in Sources */,
+				6115CE2B2B178321004E0235 /* ConcurrencyRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
